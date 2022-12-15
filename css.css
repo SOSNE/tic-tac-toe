@@ -1,0 +1,96 @@
+body{
+background-color: bisque;
+
+}
+.wojtus{
+    background-color: beige;
+    height: 340px;
+    width: 340px;
+    position: absolute;
+    /*top: 300px;
+    left: 800px;*/
+    -webkit-box-shadow: 24px 20px 29px -7px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 24px 20px 29px -7px rgba(66, 68, 90, 1);
+    box-shadow: 24px 20px 29px -7px rgba(66, 68, 90, 1);
+ border: 2px solid grey;
+ border-radius: 5px;
+}
+.nr1{
+ border: 2px black solid;
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+
+ 
+}
+.nr2{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+.nr3{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 230px;
+}
+.nr4{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+.nr5{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+.nr6{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+}
+.nr7{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    
+}
+.nr8{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    left: 120px;
+}
+.nr9{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    left: 230px;
+}
+
+
+
+
