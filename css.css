@@ -15,6 +15,16 @@ background-color: bisque;
  border: 2px solid grey;
  border-radius: 5px;
 }
+#piotus{
+    height: 100px;
+    width: 340px;
+    position: absolute;
+    top: 15%;
+    left: 47%;
+}
+#wygrana{
+    font-size: 40px;
+}
 .nr1{
  border: 2px black solid;
  width: 100px;
@@ -22,8 +32,6 @@ background-color: bisque;
  position: absolute;
  top: 10px;
  left: 10px;
-
- 
 }
 .nr2{
     border: 2px black solid;

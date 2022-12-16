@@ -179,6 +179,24 @@ function fw101(){
     console.log(checker(win2, woooon6));
     console.log(checker(win2, woooon7));
     console.log(checker(win2, woooon8));
+
+    if(checker(win1, woooon1)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon2)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon3)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon4)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon5)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon6)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon7)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon8)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+
+    if(checker(win2, woooon1)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon2)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon3)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon4)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon5)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon6)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon7)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon8)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
 }
 
 
