@@ -25,7 +25,7 @@ background-color: bisque;
 #wygrana{
     font-size: 40px;
 }
-.nr1{
+#nr1{
  border: 2px black solid;
  width: 100px;
  height: 100px;
@@ -33,7 +33,7 @@ background-color: bisque;
  top: 10px;
  left: 10px;
 }
-.nr2{
+#nr2{
     border: 2px black solid;
     width: 100px;
     height: 100px;
@@ -41,7 +41,7 @@ background-color: bisque;
     top: 10px;
     left: 120px;
 }
-.nr3{
+#nr3{
     border: 2px black solid;
     width: 100px;
     height: 100px;
@@ -49,7 +49,7 @@ background-color: bisque;
     top: 10px;
     left: 230px;
 }
-.nr4{
+#nr4{
     border: 2px black solid;
     width: 100px;
     height: 100px;
@@ -57,7 +57,7 @@ background-color: bisque;
     top: 120px;
     left: 10px;
 }
-.nr5{
+#nr5{
     border: 2px black solid;
     width: 100px;
     height: 100px;
@@ -65,7 +65,7 @@ background-color: bisque;
     top: 120px;
     left: 120px;
 }
-.nr6{
+#nr6{
     border: 2px black solid;
     width: 100px;
     height: 100px;
@@ -73,7 +73,7 @@ background-color: bisque;
     top: 120px;
     left: 230px;
 }
-.nr7{
+#nr7{
     border: 2px black solid;
     width: 100px;
     height: 100px;
@@ -82,7 +82,7 @@ background-color: bisque;
     left: 10px;
     
 }
-.nr8{
+#nr8{
     border: 2px black solid;
     width: 100px;
     height: 100px;
@@ -90,7 +90,7 @@ background-color: bisque;
     top: 230px;
     left: 120px;
 }
-.nr9{
+#nr9{
     border: 2px black solid;
     width: 100px;
     height: 100px;

@@ -12,7 +12,6 @@ let woooon7 =[2,5,8];
 let woooon8 =[3,6,9];
 let o=1;
 function nrr1(){
-    document.querySelector(".nr1").disabled = true;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -23,14 +22,13 @@ function nrr1(){
         kolejnosc+= 1;
         win1.push(o++);
     }    
-    document.querySelector('.nr1').style.backgroundColor = kolor;
+    document.getElementById('nr1').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr1").disabled = true;
+    document.getElementById("nr1").disabled = true;
 
     
 }
 function nrr2(){
-    document.querySelector('.nr2').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -41,13 +39,12 @@ function nrr2(){
         kolejnosc+= 1;
         win1.push(2);
     }    
-    document.querySelector('.nr2').style.backgroundColor = kolor;
+    document.getElementById('nr2').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr2").disabled = true;
+    document.getElementById("nr2").disabled = true;
     
 }
 function nrr3(){
-    document.querySelector('.nr3').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -58,13 +55,12 @@ function nrr3(){
         kolejnosc+= 1;
         win1.push(3);
     }    
-    document.querySelector('.nr3').style.backgroundColor = kolor;
+    document.getElementById('nr3').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr3").disabled = true;
+    document.getElementById("nr3").disabled = true;
 
 }
 function nrr4(){
-    document.querySelector('.nr4').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -75,12 +71,11 @@ function nrr4(){
         kolejnosc+= 1;
         win1.push(4);
     }    
-    document.querySelector('.nr4').style.backgroundColor = kolor;
+    document.getElementById('nr4').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr4").disabled = true;
+    document.getElementById("nr4").disabled = true;
 }
 function nrr5(){
-    document.querySelector('.nr5').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -91,12 +86,11 @@ function nrr5(){
         kolejnosc+= 1;
         win1.push(5);
     }    
-    document.querySelector('.nr5').style.backgroundColor = kolor;
+    document.getElementById('nr5').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr5").disabled = true;
+    document.getElementById("nr5").disabled = true;
 }
 function nrr6(){
-    document.querySelector('.nr6').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -107,12 +101,11 @@ function nrr6(){
         kolejnosc+= 1;
         win1.push(6);
     }    
-    document.querySelector('.nr6').style.backgroundColor = kolor;
+    document.getElementById('nr6').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr6").disabled = true;
+    document.getElementById("nr6").disabled = true;
 }
 function nrr7(){
-    document.querySelector('.nr7').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -123,12 +116,11 @@ function nrr7(){
         kolejnosc+= 1;
         win1.push(7);
     }    
-    document.querySelector('.nr7').style.backgroundColor = kolor;
+    document.getElementById('nr7').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr7").disabled = true;
+    document.getElementById("nr7").disabled = true;
 }
 function nrr8(){
-    document.querySelector('.nr8').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -139,12 +131,11 @@ function nrr8(){
         kolejnosc+= 1;
         win1.push(8);
     }    
-    document.querySelector('.nr8').style.backgroundColor = kolor;
+    document.getElementById('nr8').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr8").disabled = true;
+    document.getElementById("nr8").disabled = true;
 }
 function nrr9(){
-    document.querySelector('.nr9').style.backgroundColor = kolor;
     console.log("yooo");
     if(kolejnosc%2==0){
         kolor = "yellow"
@@ -155,10 +146,13 @@ function nrr9(){
         kolejnosc+= 1;
         win1.push(9);
     }    
-    document.querySelector('.nr9').style.backgroundColor = kolor;
+    document.getElementById('nr9').style.backgroundColor = kolor;
     console.log(kolejnosc);
-    document.querySelector(".nr9").disabled = true;
+    document.getElementById("nr9").disabled = true;
 }
+
+let buttons = [...document.getElementsByClassName("button")];
+
 function fw101(){
 
     let checker = (arr, target) => target.every(v => arr.includes(v));
@@ -180,25 +174,21 @@ function fw101(){
     console.log(checker(win2, woooon7));
     console.log(checker(win2, woooon8));
 
-    if(checker(win1, woooon1)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win1, woooon2)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win1, woooon3)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win1, woooon4)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win1, woooon5)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win1, woooon6)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win1, woooon7)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win1, woooon8)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win1, woooon1)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win1, woooon2)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win1, woooon3)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win1, woooon4)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win1, woooon5)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win1, woooon6)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win1, woooon7)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win1, woooon8)===true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
 
-    if(checker(win2, woooon1)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win2, woooon2)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win2, woooon3)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win2, woooon4)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win2, woooon5)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win2, woooon6)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win2, woooon7)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
-    if(checker(win2, woooon8)==true) document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor;
+    if(checker(win2, woooon1)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win2, woooon2)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win2, woooon3)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win2, woooon4)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win2, woooon5)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win2, woooon6)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win2, woooon7)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
+    if(checker(win2, woooon8)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
 }
-
-
-
-
