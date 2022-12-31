@@ -1,5 +1,5 @@
 body{
-background-color: #353535;
+background-color: lightgray
 
 }
 .wojtus{
@@ -23,7 +23,8 @@ background-color: #353535;
     left: 47%;
 }
 #wygrana{
-    font-size: 40px;
+    font-size: 40px; 
+
 }
 #nr1{
  border: 2px black solid;
