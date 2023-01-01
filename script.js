@@ -192,3 +192,7 @@ function fw101(){
     if(checker(win2, woooon7)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
     if(checker(win2, woooon8)==true) { document.getElementById("wygrana").innerHTML = "MEGA WIN " + kolor; buttons.forEach((v)=> {v.disabled = true;})}
 }
+function refreshPage(){
+    window.location.reload();
+}
+document.getElementById("restart").addEventListener("click", refreshPage);
