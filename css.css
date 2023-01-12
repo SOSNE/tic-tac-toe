@@ -1,6 +1,5 @@
 body{
 background-color: #121813;
-
 }
 .kasia{
     width: 115px;
@@ -25,14 +24,20 @@ background-color: #121813;
 }
 #piotus{
     height: 100px;
-    width: 340px;
+    width: 40%;
     position: absolute;
     top: 15%;
-    left: 47%;
+    left: 30%;
+    
 }
 #wygrana{
-    font-size: 40px; 
-
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    height: 55%;
+    width: 100%;
+    text-align: center;
+    border: 4px solid white;
 }
 #nr1{
  border: 2px black solid;
