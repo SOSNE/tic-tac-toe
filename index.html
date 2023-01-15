@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <div class="wojtus">
+    <div class="GameBox">
         <button id="nr1" class="button" onclick="nrr1(); fw101()"></button>
         <button id="nr2" class="button" onclick="nrr2(); fw101()"></button>
         <button id="nr3" class="button" onclick="nrr3(); fw101()"></button>
@@ -19,11 +19,16 @@
         <button id="nr8" class="button" onclick="nrr8(); fw101()"></button>
         <button id="nr9" class="button" onclick="nrr9(); fw101()"></button>
     </div>
-    <div id="piotus">
-        <p id="wygrana"></p>
+    <div id="TextBar">
+        <p id="winText"></p>
     </div>
 
-    <button class="kasia" id="restart" >restart</button>
+    <div id="winCounter">
+        <p id="pink">Wynik różowych = 0</p>
+        <p id="yellow">Wynik żółtych = 0</p>
+    </div>
+
+    <button class="RestartButton" id="restart" >restart</button>
 
     <script src="script.js"></script>
 </body>
